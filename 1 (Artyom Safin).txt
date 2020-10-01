@@ -1,0 +1,7 @@
+a = list(map(int, input().split()))
+i = 0
+b = 1
+while (i != len(a)):
+    b *= a[i]
+    i += 1
+print(b)

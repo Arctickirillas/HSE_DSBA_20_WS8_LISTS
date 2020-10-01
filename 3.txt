@@ -1,0 +1,8 @@
+a = input().split()
+b = int(input())
+if (len(a) % b == 0):
+    d = len(a) // b
+else:
+    d = len(a) // b + 1
+for i in range(d):
+    print(*a[i::d])
