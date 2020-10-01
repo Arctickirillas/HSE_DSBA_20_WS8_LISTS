@@ -1,0 +1,9 @@
+a = [(10, 20, 40), (40, 50, 60), (70, 80, 90)]  # enter your list here
+b = []
+d = []
+c = 100  # enter what value should last element of the tuple be replaced to
+for i in range(len(a)):
+    d = list(a[i])  # well, if i can't modify tuples, i'll just make a list out of it
+    d[-1] = c  # magic
+    b.append(tuple(d))  # just like nothing happened
+print(b)
