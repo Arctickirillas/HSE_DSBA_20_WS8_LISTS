@@ -1,0 +1,6 @@
+a = [(), (), ('',), ('a', 'b'), ('a', 'b', 'c'), ('d')]  # enter your list here
+b = []
+for i in range(len(a)):
+    if (len(a[i]) != 0):
+        b += (a[i],)
+print(b)
