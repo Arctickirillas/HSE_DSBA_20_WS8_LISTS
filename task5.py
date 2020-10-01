@@ -9,6 +9,8 @@ for i in range(len(ar)):
     for j in range(len(answer)):
         answer[j] = answer[j]+ [new]
     answer = original + answer
-print(answer)
+for lists in answer:
+    print(" ".join(lists))
+
 
     

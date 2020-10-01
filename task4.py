@@ -5,4 +5,4 @@ for i in range(len(stroka)):
         continue
     else:
         answer.append(stroka[i])
-print(answer)
+print(" ".join(answer))
