@@ -1,0 +1,11 @@
+a = [(10, 20, 40), (40, 50, 60), (70, 80, 90)]
+p = list(a[0])
+q = list(a[1])
+z = list(a[2])
+p[2] = 100
+q[2] = 100
+z[2] = 100
+p = tuple(p)
+q = tuple(q)
+z = tuple(z)
+print([p, q, z])

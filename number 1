@@ -1,0 +1,6 @@
+n = input().split()
+m = 1
+for i in n:
+    i = int(i)
+    m *= i
+print(m)
